@@ -1,13 +1,6 @@
-// ESLint error
-/* global React ReactDOM */
-
-const Pet = (props) => {
-  return React.createElement("div", { id: "pet-instance" }, [
-    React.createElement("h2", { id: "pet-name" }, props.name),
-    React.createElement("h3", { id: "pet-animal" }, props.animal),
-    React.createElement("h3", { id: "pet-breed" }, props.breed),
-  ]);
-};
+import React from "react";
+import ReactDOM from "react-dom";
+import Pet from "./Pet";
 
 // NOTE: that App has to be capitalized otherwise React will assume it is a html element
 // and not render properly
