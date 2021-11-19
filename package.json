@@ -1,0 +1,25 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "pet adoption app",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KomodoTech/adopt-me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KomodoTech/adopt-me/issues"
+  },
+  "homepage": "https://github.com/KomodoTech/adopt-me#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^8.1.0",
+    "prettier": "^2.4.1"
+  }
+}
